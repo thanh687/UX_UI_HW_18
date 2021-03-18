@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #28324B;
+    height: 100vh;
+}
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 15px;
+}
+.logo{
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+nav{
+    width: 70%;
+    margin-bottom: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+.mainnav{
+    width: 50%;
+    margin-left: auto;
+    float: right;
+}
+#navitems{
+    float: right;
+    color: white;
+}
+.active{
+    text-decoration: underline solid #FBDE44;
+    color: #FBDE44;
+    font-weight: bold;
+}
+.heroImg{
+    height: 100vh;
+    padding: 25px;
+}
+.content{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: "hero myinfo";
+    justify-items: right;  
+    align-items: end;
+}
+.myinfo{
+    grid-area: myinfo;
+}
+.myname{
+    font-size: 3em;
+    grid-area: myname; 
+    font-family: 'Fascinate', cursive;
+    margin-bottom:0;
+    padding-left: 3%;
+    color: #FBDE44;
+}
+.title{
+    grid-area: title;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    padding-left: 3%;
+    color: #FBDE44;
+    margin-top:0.5em;
+}
+.hero{
+    grid-area: hero;
+    width: 75%;
+}
+.intro{
+    grid-area: intro;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 5%;
+    margin-bottom: 0;
+    background-color: #FBDE44;
+    padding-left: 3%;
+    padding-top: 5%;
+    padding-right: 10%;
+}
+footer{
+    position: absolute;
+    font-size: 1em;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.footerList{
+    color: #28324B;
+    background-color: #FBDE44;
+    margin-bottom: 0;
+    padding: 15px;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5px;
+
+}
+.logomark{
+    width: 15%;
+    height:15%;
+}
+.flexContainer{
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+    justify-content: flex-end;
+    background-color: #FBDE44;
+    margin-bottom: 10%;
+    height: 350px;
+    padding-right: 5%;
+    margin-left: 15%;
+}
+.mySkills{
+    margin-left: 10px;
+    width: 25%;
+    height: 400px;
+    background-color: lightgray;
+    transform: translate(30px,100px);
+}
+.header{
+    
+    left: 0;
+    transform: translate(-150px,-10px);
+    position: absolute;
+}
+.yellowHeader{
+    font-size: 6em;
+    color: #FBDE44;
+    font-family: 'Fascinate', cursive;
+}
+.darkHeader{
+    margin-left: 10px;
+    font-size: 6em;
+    font-family: 'Fascinate', cursive;
+    color: #28324B;
+
+}
